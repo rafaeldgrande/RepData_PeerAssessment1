@@ -66,7 +66,7 @@ ggplot(steps_per_day, aes(x = total_steps)) +
   theme_minimal()
 ```
 
-![](PA1_template_files/figure-html/steps_per_day-1.png)<!-- -->
+![](figures/steps_per_day-1.png)<!-- -->
 
 ``` r
 # 2. Mean and median
@@ -110,7 +110,7 @@ ggplot(interval_avg, aes(x = interval, y = avg_steps)) +
   theme_minimal()
 ```
 
-![](PA1_template_files/figure-html/daily_activity-1.png)<!-- -->
+![](figures/daily_activity-1.png)<!-- -->
 
 ``` r
 # 2. Interval with maximum average steps
@@ -168,7 +168,7 @@ ggplot(steps_per_day_imputed, aes(x = total_steps)) +
   theme_minimal()
 ```
 
-![](PA1_template_files/figure-html/imputing-1.png)<!-- -->
+![](figures/imputing-1.png)<!-- -->
 
 ``` r
 # Mean and median after imputation
@@ -222,7 +222,7 @@ ggplot(interval_daytype, aes(x = interval, y = avg_steps)) +
   theme_minimal()
 ```
 
-![](PA1_template_files/figure-html/weekday_weekend-1.png)<!-- -->
+![](figures/weekday_weekend-1.png)<!-- -->
 
 - On **weekdays**, activity peaks sharply in the morning (around interval 835), and then remains relatively low throughout the day.  
 - On **weekends**, activity is more distributed throughout the day.
